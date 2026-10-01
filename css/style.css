@@ -1596,11 +1596,13 @@ h1, h2, h3 {
   width: 100%;
 }
 
-/* Card em destaque (Oh My Shape — melhor custo-benefício, segundo a
-   Milena): mesmo tratamento visual dos outros itens em destaque do
-   site (fundo vinho sólido + texto branco), pra saltar aos olhos. A
-   sombra dele mora só a partir de 640px, pelo mesmo motivo do
-   ".plano-card" acima (nada de sombra dentro do carrossel mobile). */
+/* Card em destaque (plano recomendado — ver comentário no topo da seção
+   de planos no index.html pra saber qual plano está marcado como
+   destaque agora e por quê, isso muda conforme a Milena confirma):
+   mesmo tratamento visual dos outros itens em destaque do site (fundo
+   vinho sólido + texto branco), pra saltar aos olhos. A sombra dele
+   mora só a partir de 640px, pelo mesmo motivo do ".plano-card" acima
+   (nada de sombra dentro do carrossel mobile). */
 .plano-card--destaque {
   background-color: var(--cor-vinho-principal);
 }
